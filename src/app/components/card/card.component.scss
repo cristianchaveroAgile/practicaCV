@@ -27,9 +27,8 @@
 }
 .fotoperfil{
   width:170px;
-  height: 150px;
+  height: 170px;
   border-radius:150px;
-  margin: 0 0 0 590px;
   margin-left: auto;
   margin-right: auto;
   }
@@ -47,4 +46,21 @@
   height:32px;
   width:93px;
 
+}
+.iconos{
+
+  padding: 5px;
+	margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+.facebook{
+
+  margin-right: 4em;
+}
+
+.link{
+
+  margin-right: 4em;
 }
