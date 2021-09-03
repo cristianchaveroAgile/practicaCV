@@ -10,6 +10,9 @@ import { ATComponentsModule } from 'at-digital-components';
 // Mis componentes
 import { CardComponent } from './components/card/card.component';
 import { CurriculumComponent } from './components/curriculum/curriculum.component';
+import { EditarComponent } from './components/editar/editar.component';
+import { ValidacionComponent } from './components/validacion/validacion.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -17,6 +20,9 @@ import { CurriculumComponent } from './components/curriculum/curriculum.componen
     AppComponent,
     CardComponent,
     CurriculumComponent,
+    EditarComponent,
+    ValidacionComponent,
+
 
   ],
   imports: [
@@ -24,7 +30,8 @@ import { CurriculumComponent } from './components/curriculum/curriculum.componen
     AppRoutingModule,
     ATComponentsModule,
     RouterModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
 
   ],
   providers: [],
