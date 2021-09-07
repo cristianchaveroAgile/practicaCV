@@ -16,19 +16,14 @@ body{
   width: 401px;
   height: 532px;
   margin: 0;
-  padding: 0;
+  padding: 1rem;
   margin-left: auto;
   margin-right: auto;
 
 }
 // Estilo imagen logo AgileThought
 .logo{
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 300px;
-  height: 70, 23px;
-
+  width: 18.75rem;
 }
 .info{
   text-align: center;
@@ -71,12 +66,14 @@ body{
 
   margin-right: 4em;
   padding-top: 6px;
+  color: black;
 }
 
 .link{
 
   margin-right: 4em;
   padding-top: 6px;
+  color: black;
 }
 .git{
 
